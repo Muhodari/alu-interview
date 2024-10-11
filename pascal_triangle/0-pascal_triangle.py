@@ -13,6 +13,10 @@ def generate_pascals_triangle(rows):
     Returns:
         list: A list of lists representing Pascal's triangle.
               Returns an empty list if rows <= 0.
+
+    Example:
+        >>> generate_pascals_triangle(5)
+        [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
     """
     if rows <= 0:
         return []
